@@ -16,14 +16,14 @@ export default function Home() {
       src: agendarHr,
     },
     {
-      href: "https://wa.me/+5544998596467?text=Gostaria%20de%20receber%20o%20pdf%20de%20informa%C3%A7%C3%B5es%20do%20curso%20%20presencial%20",
-      alt: "curso presencial",
-      src: cursoPresencial,
-    },
-    {
       href: "https://wa.me/+5544998596467?text=Gostaria%20de%20receber%20o%20pdf%20de%20informa%C3%A7%C3%B5es%20do%20curso%20online%20",
       alt: "curso online",
       src: cursoOnline,
+    },
+    {
+      href: "https://wa.me/+5544998596467?text=Gostaria%20de%20receber%20o%20pdf%20de%20informa%C3%A7%C3%B5es%20do%20curso%20%20presencial%20",
+      alt: "curso presencial",
+      src: cursoPresencial,
     },
   ];
 
@@ -55,7 +55,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mb-12 mt-6 text-center">
-            <h1 className="text-5xl mb-2 font-medium">AGATHA REGIS</h1>
+            <h1 className="text-4xl mb-2 font-medium">AGATHA REGIS</h1>
             <p className="text-2xl font-normal">Estética Personalizada</p>
           </div>
           <div className="flex justify-center mb-6">
