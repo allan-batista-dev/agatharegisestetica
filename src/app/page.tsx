@@ -54,9 +54,9 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className="mb-12 text-center">
-            <h1 className="text-5xl mb-2 font-medium">Agatha Regis</h1>
-            <p className="text-2xl font-thin">Estética Personalizada</p>
+          <div className="mb-12 mt-6 text-center">
+            <h1 className="text-5xl mb-2 font-medium">AGATHA REGIS</h1>
+            <p className="text-2xl font-normal">Estética Personalizada</p>
           </div>
           <div className="flex justify-center mb-6">
             <ul>
