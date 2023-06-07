@@ -84,7 +84,6 @@ export default function Home() {
               height="150"
               className="px-6 mb-10"
               loading="lazy">
-              Loading
             </iframe>
           </div>
         </div>
