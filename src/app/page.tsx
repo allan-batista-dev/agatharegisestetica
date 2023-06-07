@@ -76,6 +76,17 @@ export default function Home() {
               ))}
             </ul>
           </div>
+
+          <div className=" flex justify-center">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14644.272059718238!2d-51.9445871!3d-23.4219101!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ecd7c98ddf7fe7%3A0x2e688f0a4709bd34!2sAgatha%20Regis%20Est%C3%A9tica%20Personalizada!5e0!3m2!1spt-BR!2sbr!4v1686140704927!5m2!1spt-BR!2sbr"
+              width="400"
+              height="150"
+              className="px-6 mb-10"
+              loading="lazy">
+              Loading
+            </iframe>
+          </div>
         </div>
       </main>
     </>
