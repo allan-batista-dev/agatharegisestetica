@@ -4,8 +4,8 @@ import Head from "next/head";
 
 import bgImage from "../../public/img/bg1.png";
 import agathaImage from "../../public/img/agatha.jpeg";
-import cursoPresencial from "../../public/img/card-presencial.png";
-import cursoOnline from "../../public/img/curso-on.png";
+import cursoPresencial from "../../public/img/cursoPre.jpeg";
+import cursoOnline from "../../public/img/cursoOn.jpeg";
 import agendarHr from "../../public/img/agendar.png";
 
 export default function Home() {
