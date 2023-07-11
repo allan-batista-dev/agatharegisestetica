@@ -7,6 +7,7 @@ import agathaImage from "../../public/img/agatha.jpeg";
 import cursoPresencial from "../../public/img/cursoPre.jpeg";
 import cursoOnline from "../../public/img/cursoOn.jpeg";
 import agendarHr from "../../public/img/agendar.png";
+import goldDepil from "../../public/img/gold-depil.jpeg";
 
 export default function Home() {
   const dados = [
@@ -60,6 +61,19 @@ export default function Home() {
           </div>
           <div className="flex justify-center mb-6">
             <ul>
+              <li className="mb-4 px-6">
+                <Link href={"https://contate.me/gold-depil"}>
+                  <span className="relative flex h-6 w-6 top-3 right-2">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full color-animation opacity-75 top-0 left-0"></span>
+                    <span className="relative inline-flex rounded-full h-6 w-6 color-animation"></span>
+                  </span>
+                  <Image
+                    src={goldDepil}
+                    alt="agende gold depil"
+                    className="rounded-md shadow-2xl shadow-gray-900"
+                  />
+                </Link>
+              </li>
               {dados.map((card, index) => (
                 <li key={index} className="mb-4 px-6">
                   {card.src && (

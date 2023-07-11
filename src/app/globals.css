@@ -10,3 +10,7 @@ html {
   z-index: -1;
   opacity: 0.4;
 }
+
+.color-animation {
+  background-color: #D8B65C
+}
