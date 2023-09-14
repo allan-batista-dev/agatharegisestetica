@@ -62,7 +62,7 @@ export default function Home() {
           </div>
           <div className="flex justify-center mb-6">
             <ul>
-              <li className="mb-4 px-6">
+              {/* <li className="mb-4 px-6">
                 <Link href={"https://contate.me/gold-depil"}>
                   <span className="relative flex h-6 w-6 top-3 right-2">
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full color-animation opacity-75 top-0 left-0"></span>
@@ -74,7 +74,7 @@ export default function Home() {
                     className="rounded-md shadow-2xl shadow-gray-900"
                   />
                 </Link>
-              </li>
+              </li> */}
               {dados.map((card, index) => (
                 <li key={index} className="mb-4 px-6">
                   {card.src && (
