@@ -9,7 +9,7 @@ import cursoOnline from "../../public/img/cursoOn.jpeg";
 import agendarHr from "../../public/img/agendar.png";
 import goldDepil from "../../public/img/gold-depil.jpeg";
 import newGoldDepil from "../../public/img/gol.png"
-import gold1410 from '../../public/img/goldDepilOutubro.jpg'
+import gold1410 from '../../public/img/newnew.jpeg'
 
 export default function Home() {
   const dados = [
