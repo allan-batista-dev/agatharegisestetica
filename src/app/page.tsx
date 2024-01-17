@@ -7,9 +7,9 @@ import agathaImage from "../../public/img/agatha.jpeg";
 import cursoPresencial from "../../public/img/cursoPre.jpeg";
 import cursoOnline from "../../public/img/cursoOn.jpeg";
 import agendarHr from "../../public/img/agendar.png";
-import goldDepil from "../../public/img/gold-depil.jpeg";
-import newGoldDepil from "../../public/img/gol.png"
-import gold1410 from '../../public/img/newnew.jpeg'
+import golddepil from "../../public/img/gold-depil-01-01-2024.jpeg"
+import cursoOn2024 from "../../public/img/eletroestetica-online-01-01-2024.jpeg"
+import cursoPresen2024 from "../../public/img/eletroestetica-presencial-01-01-2024.jpeg";
 
 export default function Home() {
   const dados = [
@@ -21,12 +21,12 @@ export default function Home() {
     {
       href: "https://wa.me/+5544998596467?text=Gostaria%20de%20receber%20o%20pdf%20de%20informa%C3%A7%C3%B5es%20do%20curso%20online%20",
       alt: "curso online",
-      src: cursoOnline,
+      src: cursoOn2024,
     },
     {
       href: "https://wa.me/+5544998596467?text=Gostaria%20de%20receber%20o%20pdf%20de%20informa%C3%A7%C3%B5es%20do%20curso%20%20presencial%20",
       alt: "curso presencial",
-      src: cursoPresencial,
+      src: cursoPresen2024,
     },
   ];
 
@@ -70,7 +70,7 @@ export default function Home() {
                     <span className="relative inline-flex rounded-full h-6 w-6 color-animation"></span>
                   </span>
                   <Image
-                    src={gold1410}
+                    src={golddepil}
                     alt="agende gold depil"
                     className="rounded-md shadow-2xl shadow-gray-900"
                   />
