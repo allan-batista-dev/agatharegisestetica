@@ -1,22 +1,25 @@
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
-
 import bgImage from "../../public/img/bg1.png";
 import agathaImage from "../../public/img/agatha.jpeg";
-import cursoPresencial from "../../public/img/cursoPre.jpeg";
-import cursoOnline from "../../public/img/cursoOn.jpeg";
-import agendarHr from "../../public/img/agendar.png";
-import golddepil from "../../public/img/gold-depil-01-01-2024.jpeg"
-import cursoOn2024 from "../../public/img/eletroestetica-online-01-01-2024.jpeg"
-import cursoPresen2024 from "../../public/img/eletroestetica-presencial-01-01-2024.jpeg";
+import curso2024presen from "../../public/img/2024/cursoeletropresencial.jpeg"
+import cursoOn2024 from "../../public/img/2024/cursoeletro.jpeg"
+import goldDepil2024 from "../../public/img/2024/golddepil.jpeg"
+import agende2024 from "../../public/img/2024/agende.jpeg"
+import mentoria from "../../public/img/2024/mentoria.jpeg"
 
 export default function Home() {
   const dados = [
     {
       href: "https://wa.me/+5544998596467?text=Oi%20Agatha%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20corporal",
       alt: "agendar",
-      src: agendarHr,
+      src: agende2024,
+    },
+    {
+      href: "https://contate.me/gold-depil",
+      alt: "gold depil",
+      src: goldDepil2024,
     },
     {
       href: "https://wa.me/+5544998596467?text=Gostaria%20de%20receber%20o%20pdf%20de%20informa%C3%A7%C3%B5es%20do%20curso%20online%20",
@@ -26,8 +29,13 @@ export default function Home() {
     {
       href: "https://wa.me/+5544998596467?text=Gostaria%20de%20receber%20o%20pdf%20de%20informa%C3%A7%C3%B5es%20do%20curso%20%20presencial%20",
       alt: "curso presencial",
-      src: cursoPresen2024,
+      src: curso2024presen,
     },
+    {
+      href: "https://wa.me/+5544999743691?text=Ol%C3%A1%20Agatha,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20a%20Mentoria%20VIP%20Personalizada.",
+      alt: "mentoria vip",
+      src: mentoria,
+    }
   ];
 
   return (
@@ -63,19 +71,6 @@ export default function Home() {
           </div>
           <div className="flex justify-center mb-6">
             <ul>
-              <li className="mb-4 px-6">
-                <Link href={"https://contate.me/gold-depil"}>
-                  <span className="relative flex h-6 w-6 top-3 right-2">
-                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full color-animation opacity-75 top-0 left-0"></span>
-                    <span className="relative inline-flex rounded-full h-6 w-6 color-animation"></span>
-                  </span>
-                  <Image
-                    src={golddepil}
-                    alt="agende gold depil"
-                    className="rounded-md shadow-2xl shadow-gray-900"
-                  />
-                </Link>
-              </li>
               {dados.map((card, index) => (
                 <li key={index} className="mb-4 px-6">
                   {card.src && (
@@ -83,7 +78,6 @@ export default function Home() {
                       <Image
                         src={card.src}
                         alt={card.alt}
-                        // layout="responsive"
                         className="rounded-md shadow-2xl shadow-gray-900"
                       />
                     </Link>
@@ -92,7 +86,6 @@ export default function Home() {
               ))}
             </ul>
           </div>
-
           <div className=" flex justify-center">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14644.272059718238!2d-51.9445871!3d-23.4219101!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ecd7c98ddf7fe7%3A0x2e688f0a4709bd34!2sAgatha%20Regis%20Est%C3%A9tica%20Personalizada!5e0!3m2!1spt-BR!2sbr!4v1686140704927!5m2!1spt-BR!2sbr"
