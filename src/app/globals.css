@@ -14,3 +14,13 @@ html {
 .color-animation {
   background-color: #D8B65C
 }
+
+.bg-headers { 
+  background-image: url('../../public/img/bgs/bgheaders.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-color-ar {
+  background-color: #cebf85;
+}
