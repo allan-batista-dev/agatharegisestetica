@@ -13,7 +13,7 @@ import {
 
 const VideoSection = () => {
     return (
-        <section className="bg-gray-300">
+        <section className="bg-default">
             <div className="text-center py-20">
                 <h3 className="text-2xl">
                     Assista o vídeo para entender tudo sobre o curso!
@@ -32,7 +32,7 @@ const VideoSection = () => {
                     </DialogTrigger>
                     <DialogContent className="w-screen bg-gray-600 border-gray-600">
                         {/* @ts-ignore */}
-                        <iframe className="w-full h-[280px] lg:w-full lg:h-[500px] mt-5 "  src="https://www.youtube.com/embed/u-6XK1yy3rE" title="As Vagas Realmente Acabaram? (Investigação)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe className="w-full h-[280px] lg:w-full lg:h-[500px] mt-5 " src="https://www.youtube.com/embed/u-6XK1yy3rE" title="As Vagas Realmente Acabaram? (Investigação)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </DialogContent>
                 </Dialog>
             </div>

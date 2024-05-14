@@ -16,11 +16,30 @@ html {
 }
 
 .bg-headers { 
-  background-image: url('../../public/img/bgs/bgheaders.png');
+  background-image: url('../../public/img/agathabg.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .bg-color-ar {
-  background-color: #cebf85;
+  background-color: #588157;
+}
+
+.bg-default {
+  background-color: #DAD7CD;
+}
+
+.bg-green-light {
+  background-color: #A3B18A;
+}
+
+.btn-dark-ar {
+  color: whitesmoke;
+  background-color: #3A5A40;
+  font-size: medium;
+  font-weight: 400;
+}
+
+.text-green-dark {
+  color: #3A5A40;
 }

@@ -10,17 +10,17 @@ import imgMockup from '../../../../public/img/mockup.png'
  
 const ModulesSection = () => {
     return (
-        <section className="bg-gray-200 pt-32">
+        <section className="bg-default pt-32">
             <div className="grid grid-cols-1 md:grid-cols-2 mx-10 lg:mx-32 items-center">
                 <div className="space-y-5 px-0 lg:px-20 mb-5 lg:mb-0">
-                    <h5 className="text-6xl">
+                    <h5 className="text-6xl text-green-dark font-semibold">
                         10 módulos de aulas
                     </h5>
-                    <p className="text-lg">
+                    <p className="text-lg text-green-dark">
                         O caminho para o reconhecimento na estética através da Limpeza de Pele Personalizada
                     </p>
                     <div>
-                        <Button>
+                        <Button variant={'ghost'} className="btn-dark-ar">
                             Texto do botão
                         </Button>
                     </div>
