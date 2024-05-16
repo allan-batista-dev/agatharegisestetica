@@ -1,4 +1,5 @@
-import { AspectRatio } from "@/components/ui/aspect-ratio"
+"use client";
+
 import Image from "next/image";
 import img from '../../../../public/img/player.png'
 import {
@@ -10,16 +11,41 @@ import {
     DialogTitle,
     DialogTrigger,
 } from "@/components/ui/dialog"
+import { useLayoutEffect } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const VideoSection = () => {
+    useLayoutEffect(() => {
+        gsap.registerPlugin(ScrollTrigger);
+        gsap.from(".title", {
+            opacity: 1, x: -300, duration: 1,
+        });
+        gsap.to(".title", {
+            opacity: 1, x: 0, duration: 1, scrollTrigger: {
+                trigger: ".items1",
+                start: "top 600px",
+                end: "bottom 200px",
+            }
+        });
+        gsap.from(".video", { opacity: 1, y: 300, duration: 1 });
+        gsap.to(".video", {
+            opacity: 1, y: 0, duration: 1, scrollTrigger: {
+                trigger: ".items1",
+                start: "top 600px",
+                end: "bottom 200px",
+            }
+        });
+    }, [])
+    
     return (
-        <section className="bg-default">
+        <section className="bg-default items1">
             <div className="text-center py-20">
-                <h3 className="text-2xl">
+                <h3 className="text-2xl title">
                     Assista o vídeo para entender tudo sobre o curso!
                 </h3>
             </div>
-            <div className="flex items-center justify-center pb-10 mb-0 px-8 lg:px-0 lg:-mb-32">
+            <div className="flex items-center justify-center pb-10 mb-0 px-8 lg:px-0 lg:-mb-32 video">
                 <Dialog>
                     <DialogTrigger asChild>
                         <Image

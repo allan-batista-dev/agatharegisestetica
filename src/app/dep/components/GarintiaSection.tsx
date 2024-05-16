@@ -1,14 +1,15 @@
 import Image from "next/image"
-import dia7 from '../../../../public/img/7dias.svg'
+import dia7 from '../../../../public/img/7dias.png'
 
 const GarantiaSection = () => {
     return (
-        <section className="py-32 bg-slate-400">
+        <section className="py-32 bg-default">
             <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
                 <div className="flex justify-center mb-5 lg:mb-0">
                     <Image
                         src={dia7}
                         alt="garantia"
+layout="responsive"
                     />
                 </div>
                 <div className="lg:pe-32 space-y-4 px-10 lg:px-0">
