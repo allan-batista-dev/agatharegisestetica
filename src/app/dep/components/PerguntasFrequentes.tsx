@@ -18,22 +18,21 @@ const PergunstasFrequentes = () => {
                 <Card className="w-full mx-5 lg:mx-0 lg:w-1/2">
                     <Accordion type="single" collapsible className="w-full p-5">
                         <AccordionItem value="item-1">
-                            <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                            <AccordionTrigger>Ierwerewrwe</AccordionTrigger>
                             <AccordionContent>
-                                Yes. It adheres to the WAI-ARIA design pattern.
+                                werwerewrwerwerwerwe
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-2">
                             <AccordionTrigger>Is it styled?</AccordionTrigger>
                             <AccordionContent>
-                                Yes. It comes with default styles that matches the other
-                                components&apos; aesthetic.
+         erwerwerwecercc erewrew
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-3">
-                            <AccordionTrigger>Is it animated?</AccordionTrigger>
+                            <AccordionTrigger>werwer werwer  s</AccordionTrigger>
                             <AccordionContent>
-                                Yes. It's animated by default, but you can disable it if you prefer.
+                               werwerwer erwerwerew  ewrwe ewr 
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
