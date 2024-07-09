@@ -17,7 +17,7 @@ const CardInfo = () => {
     useLayoutEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
         gsap.from(".card", {
-            opacity: 1, x: -300, duration: 1,
+            opacity: 0, x: -300, duration: 1,
         });
         gsap.to(".card", {
             opacity: 1, x: 0, duration: 1, scrollTrigger: {
@@ -26,7 +26,7 @@ const CardInfo = () => {
                 end: "bottom 200px",
             }
         });
-        gsap.from(".card-reverse", { opacity: 1, x: 300, duration: 1 });
+        gsap.from(".card-reverse", { opacity: 0, x: 300, duration: 1 });
         gsap.to(".card-reverse", {
             opacity: 1, x: 0, duration: 1, scrollTrigger: {
                 trigger: ".items",
@@ -34,7 +34,7 @@ const CardInfo = () => {
                 end: "bottom 200px",
             }
         });
-        gsap.from(".card-y", { opacity: 1, y: 300, duration: 1 });
+        gsap.from(".card-y", { opacity: 0, y: 300, duration: 1 });
         gsap.to(".card-y", {
             opacity: 1, y: 0, duration: 1, scrollTrigger: {
                 trigger: ".items",

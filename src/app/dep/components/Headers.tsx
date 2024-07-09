@@ -11,7 +11,7 @@ const Headers = () => {
     useLayoutEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
         gsap.from(".titleHeader", {
-            opacity: 1, x: -300, duration: 1,
+            opacity: 0, x: -300, duration: 1,
         });
         gsap.to(".titleHeader", {
             opacity: 1, x: 0, duration: 1,
