@@ -19,8 +19,27 @@ html {
   background-image: url('../../public/img/agathabg.png');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center; /* Centraliza a imagem no container */
 }
 
+/* Para telas menores, como dispositivos móveis */
+@media (max-width: 768px) {
+  .bg-headers {
+    background-image: none;
+    background-color: #344E41;
+    background-size: cover;
+    background-position:  right;
+    /* opacity: 0.8; */
+  }
+}
+
+/* Para telas muito pequenas, como dispositivos móveis antigos */
+@media (max-width: 480px) {
+  .bg-headers {
+    background-size: cover;
+    background-position:  right;
+  }
+}
 .bg-color-ar {
   background-color: #588157;
 }

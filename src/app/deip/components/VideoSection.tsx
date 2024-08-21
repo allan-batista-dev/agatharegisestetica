@@ -5,10 +5,6 @@ import img from '../../../../public/img/player.png'
 import {
     Dialog,
     DialogContent,
-    DialogDescription,
-    DialogFooter,
-    DialogHeader,
-    DialogTitle,
     DialogTrigger,
 } from "@/components/ui/dialog"
 import { useLayoutEffect } from "react";
@@ -58,7 +54,7 @@ const VideoSection = () => {
                     </DialogTrigger>
                     <DialogContent className="w-screen bg-gray-600 border-gray-600">
                         {/* @ts-ignore */}
-                        <iframe className="w-full h-[280px] lg:w-full lg:h-[500px] mt-5 " src="https://www.youtube.com/embed/u-6XK1yy3rE" title="As Vagas Realmente Acabaram? (Investigação)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe  className="w-full h-[280px] lg:w-full lg:h-[500px] mt-5" src="https://www.youtube.com/embed/NbWCd86Xn1k" title="Detox Estético Integrativo Personalizado (D.E.I.P)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </DialogContent>
                 </Dialog>
             </div>
