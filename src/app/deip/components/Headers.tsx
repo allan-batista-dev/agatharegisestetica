@@ -17,6 +17,12 @@ const Headers = () => {
         gsap.to(".titleHeader", {
             opacity: 1, x: 0, duration: 1,
         });
+        gsap.from(".imageHeader", {
+            opacity: 0, y: 300, duration: 1,
+        });
+        gsap.to(".imageHeader", {
+            opacity: 1, y: 0, duration: 1,
+        });
     }, []);
 
     return (
@@ -30,15 +36,15 @@ const Headers = () => {
                 </h2>
                 <div>
                     <Link href={"https://pay.kiwify.com.br/bngE4k4"}>
-                        <Button variant={'ghost'} className="btn-dark-ar">
-                            <span className="text-md font-bold">
+                        <Button variant={'ghost'} className="btn-dark-ar rounded-full py-7">
+                            <span className="text-md font-bold text-lg ">
                                 Quero Me Especializar em Detox Corporal
                             </span>
                         </Button>
                     </Link>
                 </div>
             </div>
-            <div className="w-full md:w-1/2 mt-5 md:mt-0 flex justify-center md:hidden">
+            <div className="w-full md:w-1/2 mt-5 md:mt-0 flex imageHeader justify-center md:hidden">
                 <Image
                     src={agatha}
                     alt="Agatha"

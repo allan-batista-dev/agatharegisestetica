@@ -7,10 +7,12 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
-import { CircleDollarSign } from "lucide-react";
+import { DollarSign, Sparkles, TrendingUp, Wand, BookOpen, UserCheck, ShoppingBag } from "lucide-react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useLayoutEffect } from "react";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 const CardInfo = () => {
 
@@ -45,56 +47,72 @@ const CardInfo = () => {
     }, [])
 
     return (
-        <section className="bg-green-light pt-64 pb-32 ">
+        <section className="bg-green-light pt-24 md:pt-44 pb-32 ">
+            <div className="text-center px-2 my-auto text-white card mb-10">
+                <p className="text-sm text-muted-foreground">
+                    DETOX ESTÉTICO INTEGRATIVO PERSONALIZADO
+                </p>
+                <p className="text-4xl font-bold">
+                    O Método D.E.I.P é o caminho certo para:
+                </p>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-6 mx-5 lg:mx-32 items">
-                <div className="px-2 my-auto text-white card">
-                    <p className="text-sm text-muted-foreground">
-                        LIMPEZA DE PELE PERSONALIZADA
-                    </p>
-                    <p className="text-4xl">
-                        O Método LPP é o caminho certo para:
-                    </p>
-                </div>
-                <Card className=" bg-default px-5 py-10 card-y">
-                    <p className="mb-4">
-                        <CircleDollarSign className="h-10 w-10" />
+
+                <Card className=" bg-default px-5 py-10 card-y border-green-bold">
+                    <p className="mb-4 flex items-center">
+                        <Wand className="h-12 w-12 me-4" /> <span className="font-4xl font-semibold">Aprimorar suas Técnicas</span>
                     </p>
                     <p className="text-lg">
-                        Vender seus serviços, se posicionar na internet como uma referência e atrair novas clientes todos os dias
+                        Domine novas abordagens de detox estético, utilizando métodos avançados como argila e manta térmica, elevando a qualidade dos seus atendimentos.
                     </p>
                 </Card>
-                <Card className="px-5 py-10 bg-default card-reverse">
-                    <p className="mb-4">
-                        <CircleDollarSign className="h-10 w-10" />
+                <Card className=" bg-default px-5 py-10 card border-green-bold">
+                    <p className="mb-4 flex items-center">
+                        <Sparkles className="h-12 w-12 me-4" /> <span className="font-4xl font-semibold">Se Diferenciar no Mercado</span>
                     </p>
                     <p className="text-lg">
-                        Vender seus serviços, se posicionar na internet como uma referência e atrair novas clientes todos os dias
+                        Ofereça um serviço exclusivo e diferenciado que destaca seu trabalho em um mercado competitivo, atraindo uma clientela mais seletiva e fiel.
                     </p>
                 </Card>
-                <Card className="px-5 py-10 bg-default card">
-                    <p className="mb-4">
-                        <CircleDollarSign className="h-10 w-10" />
-                    </p>
-                    <p className="text-lg bg-default ">
-                        Vender seus serviços, se posicionar na internet como uma referência e atrair novas clientes todos os dias
-                    </p>
-                </Card>
-                <Card className="px-5 py-10 bg-default card-y">
-                    <p className="mb-4">
-                        <CircleDollarSign className="h-10 w-10" />
+                <Card className=" bg-default px-5 py-10 card-reverse border-green-bold">
+                    <p className="mb-4 flex items-center">
+                        <DollarSign className="h-12 w-12 me-4" /> <span className="font-4xl font-semibold">Aumentar sua Rentabilidade</span>
                     </p>
                     <p className="text-lg">
-                        Vender seus serviços, se posicionar na internet como uma referência e atrair novas clientes todos os dias
+                        Aprenda a otimizar seu tempo e recursos com técnicas que maximizam os resultados, permitindo que você aumente seu ticket médio e melhore seus ganhos.
                     </p>
                 </Card>
-                <Card className="px-5 py-10 bg-default card-reverse">
-                    <p className="mb-4">
-                        <CircleDollarSign className="h-10 w-10" />
+                <Card className=" bg-default px-5 py-10 card border-green-bold">
+                    <p className="mb-4 flex items-center">
+                        <BookOpen className="h-12 w-12 me-4" /> <span className="font-4xl font-semibold">Expansão de Conhecimentos</span>
                     </p>
-                    <p className="text-lg bg-default ">
-                        Vender seus serviços, se posicionar na internet como uma referência e atrair novas clientes todos os dias
+                    <p className="text-lg">
+                        Enriquecer seu repertório profissional com conhecimentos integrativos que combinam o melhor das práticas tradicionais e inovadoras em estética.
                     </p>
                 </Card>
+                <Card className=" bg-default px-5 py-10 card-y border-green-bold">
+                    <p className="mb-4 flex items-center">
+                        <UserCheck className="h-12 w-12 me-4" /> <span className="font-4xl font-semibold">Capacitação para Atendimentos Personalizados</span>
+                    </p>
+                    <p className="text-lg">
+                        Adquira habilidades para criar planos de tratamento personalizados, alinhando-se às necessidades específicas de cada cliente e aumentando a satisfação.
+                    </p>
+                </Card>
+                <Card className=" bg-default px-5 py-10 card-reverse border-green-bold">
+                    <p className="mb-4 flex items-center">
+                        <ShoppingBag className="h-12 w-12 me-4" /> <span className="font-4xl font-semibold">Desenvolvimento de Competências de Venda</span>
+                    </p>
+                    <p className="text-lg">
+                        Além das técnicas estéticas, o curso oferece insights valiosos sobre como vender e captar clientes, permitindo que você construa uma base sólida de clientes para seu negócio.
+                    </p>
+                </Card>
+            </div>
+            <div className="text-center mt-16 px-5">
+                <Link href={"#"}>
+                    <Button className="w-full md:w-1/3 text-2xl py-8 rounded-full font-bold hover:text-green-900 hover:bg-slate-100  btn-dark-ar">
+                        Garanta Sua Vaga Agora
+                    </Button>
+                </Link>
             </div>
         </section>
     )

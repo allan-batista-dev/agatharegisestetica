@@ -33,11 +33,11 @@ const VideoSection = () => {
             }
         });
     }, [])
-    
+
     return (
         <section className="bg-default items1">
             <div className="text-center py-20">
-                <h3 className="text-2xl title">
+                <h3 className="text-3xl font-semibold px-8 lg:px-0 title text-green-dark">
                     Assista o vídeo para entender tudo sobre o curso!
                 </h3>
             </div>
@@ -54,7 +54,7 @@ const VideoSection = () => {
                     </DialogTrigger>
                     <DialogContent className="w-screen bg-gray-600 border-gray-600">
                         {/* @ts-ignore */}
-                        <iframe  className="w-full h-[280px] lg:w-full lg:h-[500px] mt-5" src="https://www.youtube.com/embed/NbWCd86Xn1k" title="Detox Estético Integrativo Personalizado (D.E.I.P)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe className="w-full h-[280px] lg:w-full lg:h-[500px] mt-5" src="https://www.youtube.com/embed/NbWCd86Xn1k" title="Detox Estético Integrativo Personalizado (D.E.I.P)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </DialogContent>
                 </Dialog>
             </div>
