@@ -3,9 +3,9 @@ import img from '../../../../public/img/mockupphone.png'
 
 const BonusSection = () => {
     return (
-        <section className="bg-color-ar py-20 lg:py-0">
+        <section className="bg-default py-20 lg:py-0">
             <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
-                <div className="px-5 lg:ps-32 space-y-5 text-white">
+                <div className="px-5 lg:ps-32 space-y-5">
                     <p className="text-muted text-md">
                         BÔNUS ESPECIAIS
                     </p>

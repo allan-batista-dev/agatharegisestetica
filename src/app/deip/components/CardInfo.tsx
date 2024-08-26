@@ -57,7 +57,6 @@ const CardInfo = () => {
                 </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-6 mx-5 lg:mx-32 items">
-
                 <Card className=" bg-default px-5 py-10 card-y border-green-bold">
                     <p className="mb-4 flex items-center">
                         <Wand className="h-12 w-12 me-4" /> <span className="font-4xl font-semibold">Aprimorar suas Técnicas</span>

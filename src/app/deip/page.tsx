@@ -15,8 +15,8 @@ export default function Dep() {
             <Headers />
             <VideoSection />
             <CardInfo />
-            <CarouselSection />
             <ModulesSection />
+            <CarouselSection />
             <BonusSection />
             <ValorCardSection />
             <GarantiaSection />

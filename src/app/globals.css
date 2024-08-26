@@ -86,3 +86,8 @@ html {
 .text-green-dark {
   color: #344E41;
 }
+
+.btn-models {
+  background-color: #344E41;
+  color: whitesmoke;
+}

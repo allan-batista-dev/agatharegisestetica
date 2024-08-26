@@ -37,7 +37,7 @@ const VideoSection = () => {
     return (
         <section className="bg-default items1">
             <div className="text-center py-20">
-                <h3 className="text-3xl font-semibold px-8 lg:px-0 title text-green-dark">
+                <h3 className="text-5xl font-bold px-8 lg:px-0 title text-green-dark">
                     Assista o vídeo para entender tudo sobre o curso!
                 </h3>
             </div>

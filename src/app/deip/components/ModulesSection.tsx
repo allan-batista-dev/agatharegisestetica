@@ -10,18 +10,18 @@ import imgMockup from '../../../../public/img/mockup.png'
 
 const ModulesSection = () => {
     return (
-        <section className="bg-default pt-32">
+        <section className="bg-default pt-32 pb-32">
             <div className="grid grid-cols-1 md:grid-cols-2 mx-10 lg:mx-32 items-center">
-                <div className="space-y-5 px-0 lg:px-20 mb-5 lg:mb-0">
-                    <h5 className="text-6xl text-green-dark font-semibold">
-                        10 módulos de aulas
+                <div className="space-y-5 px-0 lg:px-20 mb-24 md:mb-5 lg:mb-0">
+                    <h5 className="text-6xl text-green-dark font-bold">
+                        8 módulos de aulas
                     </h5>
                     <p className="text-lg text-green-dark">
-                        O caminho para o reconhecimento na estética através da Limpeza de Pele Personalizada
+                        O caminho para o reconhecimento na estética através do Detox Estético Integrativo Personalizado
                     </p>
                     <div>
-                        <Button variant={'ghost'} className="btn-dark-ar">
-                            Texto do botão
+                        <Button variant={'ghost'} className="btn-models w-full py-8 text-lg font-bold">
+                            EU QUERO GARANTIR MINHA VAGA
                         </Button>
                     </div>
                 </div>
@@ -213,13 +213,6 @@ const ModulesSection = () => {
                         </AccordionItem>
                     </Accordion>
                 </div>
-            </div>
-            <div className="flex items-center justify-center">
-                <Image
-                    src={imgMockup}
-                    alt="mockup"
-                    width={700}
-                />
             </div>
         </section>
     )
