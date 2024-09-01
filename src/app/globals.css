@@ -21,6 +21,12 @@ html {
   background-repeat: no-repeat;
   background-position: center; /* Centraliza a imagem no container */
 }
+.bg-imersao { 
+  background-image: url('../../public/img/imersao/bg-imersao.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; /* Centraliza a imagem no container */
+}
 
 /* Para telas menores, como dispositivos móveis */
 @media (max-width: 768px) {
@@ -35,6 +41,12 @@ html {
     color: whitesmoke;
     background-color: #A3B18A;
   }
+
+  .bg-imersao { 
+    background-image: url('../../public/img/imersao/bg-imersaomobile1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
 /* Para telas muito pequenas, como dispositivos móveis antigos */
@@ -46,6 +58,11 @@ html {
   .btn-dark-ar {
     color: whitesmoke;
     background-color: #d8dece;
+  }
+  .bg-imersao { 
+    background-image: url('../../public/img/imersao/bg-imersaomobile1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 .bg-color-ar {
