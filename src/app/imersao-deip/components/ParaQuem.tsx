@@ -16,36 +16,30 @@ const ParaQuem = () => {
                     </Card>
                     <Card className="p-5 rounded-3xl mb-5">
                         <p className=" text-lg font-semibold">
-                            Buscam Diferenciação no Mercado
+                           Para profissionais que buscam se diferenciar no mercado da estética 
                         </p>
                     </Card>
                     <Card className="p-5 rounded-3xl mb-5">
                         <p className=" text-lg font-semibold">
-                            Estão Iniciando na Estética Corporal
+                            Para profissionais que estão iniciando na Estética Corporal e desejam entregar resutados na primeira sessão 
+
                         </p>
                     </Card>
                     <Card className="p-5 rounded-3xl mb-5">
                         <p className=" text-lg font-semibold">
-                            Querem Aumentar a Fidelização de Clientes
+                            Para profissionais que querem fidelizar seus pacientes e se tornar referência  
                         </p>
                     </Card>
                     <Card className="p-5 rounded-3xl mb-5">
                         <p className=" text-lg font-semibold">
-                            Procuram Atualização Profissional
+                            Para profissionais que procuram atualização e estar por dentro das maiores novidades da estética 
                         </p>
                     </Card>
                     <Card className="p-5 rounded-3xl mb-5">
                         <p className=" text-lg font-semibold">
-                            Pretendem Expandir Seu Portfólio de Serviços
+                            Para profissionais que desejam dobrar o faturamento no verão 2024
                         </p>
                     </Card>
-                    <div className="pt-20">
-                        <Link href={"https://chat.whatsapp.com/LHqd2SYYh1rHCeYIugW45T"} target="_blank">
-                            <Button className="w-full py-8 bg-green-900 text-3xl animate-bounce rounded-full font-bold">
-                                QUERO PARTICIPAR
-                            </Button>
-                        </Link>
-                    </div>
                 </div>
             </div>
 

@@ -1,10 +1,18 @@
+import Image from 'next/image'
+import git from '../../../../public/img/imersao/gifdeip.gif'
 const Bonus = () => {
     return (
-        <section className="h-screen py-20">
+        <section className=" py-20">
             <div className="container">
-                <h5 className="text-5xl font-bold text-center mb-8 text-green-dark">
-                    BONUS
-                </h5>
+                <div>
+                    <Image
+                        src={git}
+                        alt="Git"
+                        width={800}
+                        height={450}
+                        layout="intrinsic"
+                    />
+                </div>
             </div>
         </section>
     )

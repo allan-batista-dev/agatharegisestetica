@@ -6,10 +6,10 @@ const Chamada = () => {
         <section className="bg-default pb-14">
             <div className="container pt-10">
                 <h1 className="text-5xl font-bold text-center">
-                    Imersão D.E.I.P: Transforme Seus Resultados na Estética Corporal com Detox Personalizado Integrativo
+                    Detox NÃO é Fórmula Pronta 🧪
                 </h1>
                 <p className="text-center pt-10">
-                    Participe da Imersão Exclusiva e Gratuita de 4 Dias ao Vivo e Aprenda a Transformar Seus Atendimentos com Protocolos Inovadores de Detox Corporal
+                    Aprenda as técnicas mais avançadas e inovadores do detox corporal  e transforme seus resultados com protocolos integrativos e personalizados
                 </p>
                 <div className="pt-20">
                     <Link href={"https://chat.whatsapp.com/LHqd2SYYh1rHCeYIugW45T"} target="_blank">

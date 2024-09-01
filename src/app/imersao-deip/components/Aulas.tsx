@@ -10,9 +10,9 @@ import {
 
 const Aulas = () => {
     return (
-        <section className="bg-green-light px-10">
+        <section className="bg-color-ar px-10">
             <div className="container py-20">
-                <h3 className="text-center text-3xl font-bold mb-10 text-white">
+                <h3 className="text-center text-4xl font-bold mb-10 text-white">
                     Conheça aqui as aulas
                 </h3>
                 <Carousel className="w-full">
