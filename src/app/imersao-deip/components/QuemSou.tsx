@@ -1,5 +1,7 @@
 import Image from "next/image";
 import agatha from "../.,/../../../../public/img/imersao/agathadeip.jpeg"
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 const QuemSou = () => {
     return (
@@ -44,6 +46,13 @@ const QuemSou = () => {
                     <p>
                         Hoje meu próposito é pegar nas mãos de profissinais que desejam mudar sua realidade através da estética e ensinar tudo o que sei e aplico no meu dia a dia clínico, por isso te espero na nossa imersão D.E.I.P
                     </p>
+                </div>
+                <div className="pt-20">
+                    <Link href={"https://chat.whatsapp.com/LHqd2SYYh1rHCeYIugW45T"} target="_blank">
+                        <Button className="w-full py-8 bg-green-900 text-3xl  rounded-full font-bold">
+                            QUERO PARTICIPAR
+                        </Button>
+                    </Link>
                 </div>
             </div>
         </section>

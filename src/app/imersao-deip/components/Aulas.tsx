@@ -18,7 +18,7 @@ const Aulas = () => {
                     <CarouselContent>
                         <CarouselItem>
                             <div className="p-1">
-                                <Card className="flex items-center mb-5 p-5 rounded-2xl">
+                                <Card className="flex items-center mb-5 p-5 rounded-2xl min-h-[600px]">
                                     <div className="space-y-2">
                                         <p className="uppercase font-semibold">
                                             Aula 1 - 15/09 ás 20:30h
@@ -35,7 +35,7 @@ const Aulas = () => {
                         </CarouselItem>
                         <CarouselItem>
                             <div className="p-1">
-                                <Card className="flex items-center mb-5 p-5 rounded-2xl">
+                                <Card className="flex items-center mb-5 p-5 rounded-2xl min-h-[600px]">
                                     <div className="space-y-2">
                                         <p className="uppercase">
                                             Aula 2 - 16/09 ás 20:30
@@ -52,7 +52,7 @@ const Aulas = () => {
                         </CarouselItem>
                         <CarouselItem>
                             <div className="p-1">
-                                <Card className="flex items-center mb-5 p-5 rounded-2xl">
+                                <Card className="flex items-center mb-5 p-5 rounded-2xl min-h-[600px]">
                                     <div className="space-y-2">
                                         <p className="uppercase">
                                             Aula 3 - 17/09 ás 20:30
@@ -69,7 +69,7 @@ const Aulas = () => {
                         </CarouselItem>
                         <CarouselItem>
                             <div className="p-1">
-                                <Card className="flex items-center mb-5 p-5 rounded-2xl">
+                                <Card className="flex items-center mb-5 p-5 rounded-2xl min-h-[600px]">
                                     <div className="space-y-2">
                                         <p className="uppercase">
                                             Aula 4 - 18/09 ás 20:30
