@@ -43,7 +43,7 @@ html {
   }
 
   .bg-imersao { 
-    background-image: url('../../public/img/imersao/bg-imersaomobile1.png');
+    background-image: url('../../public/img/imersao/bg-imersaomobile.png');
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -60,7 +60,7 @@ html {
     background-color: #d8dece;
   }
   .bg-imersao { 
-    background-image: url('../../public/img/imersao/bg-imersaomobile1.png');
+    background-image: url('../../public/img/imersao/bg-imersaomobile.png');
     background-size: cover;
     background-repeat: no-repeat;
   }
