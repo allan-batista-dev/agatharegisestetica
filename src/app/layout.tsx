@@ -1,8 +1,8 @@
 import './globals.css'
 import { Analytics } from '@vercel/analytics/react';
-import { Raleway } from 'next/font/google'
+import { Roboto } from 'next/font/google';
 
-const inter = Raleway({ subsets: ['latin'] })
+const roboto = Roboto({ subsets: ['latin'], weight: ['400', '700'], });
 
 
 export const metadata = {
@@ -12,14 +12,14 @@ export const metadata = {
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={roboto.className}>
         {children}
         <Analytics />
       </body>
     </html>
-  )
+  );
 }
