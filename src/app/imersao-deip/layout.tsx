@@ -1,4 +1,5 @@
 import React from "react"
+import FacebookPixel from "./components/Facebook"
 
 export const metadata = {
     title: 'Imersão D.E.I.P | Agatha Regis Estética',
@@ -12,6 +13,7 @@ export default function Layout({ children }: Props) {
     return (
         <>
             {children}
+            <FacebookPixel />
         </>
     )
 }
