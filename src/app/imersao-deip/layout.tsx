@@ -1,5 +1,6 @@
 import React from "react"
-import FacebookPixel from "./components/Facebook"
+import FacebookPixel from "./components/FacebookPixel"
+
 
 export const metadata = {
     title: 'Imersão D.E.I.P | Agatha Regis Estética',
