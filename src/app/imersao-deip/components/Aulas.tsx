@@ -10,7 +10,7 @@ import {
 const Aulas = () => {
     return (
         <section className="bg-color-ar px-10">
-            <div className="container py-20">
+            <div className="container w-full md:w-1/2 py-20">
                 <h3 className="text-center text-4xl font-bold mb-10 text-white">
                     Conheça aqui as aulas
                 </h3>

@@ -6,7 +6,7 @@ import Link from "next/link";
 const Conquistas = () => {
     return (
         <section className="bg-default">
-            <div className="container py-20">
+            <div className="container w-full md:w-1/2 py-20">
                 <h4 className="text-3xl font-bold text-center mb-10">
                     O que você irá conquistar com a imersão D.E.I.P
                 </h4>

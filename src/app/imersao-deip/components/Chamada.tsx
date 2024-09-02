@@ -4,7 +4,7 @@ import Link from "next/link";
 const Chamada = () => {
     return (
         <section className="bg-default pb-14">
-            <div className="container pt-10">
+            <div className="container w-full md:w-1/3  pt-10">
                 <h1 className="text-5xl font-bold text-center">
                     Detox NÃO é Fórmula Pronta 🧪
                 </h1>

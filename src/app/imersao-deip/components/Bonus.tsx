@@ -3,7 +3,7 @@ import git from '../../../../public/img/imersao/gifdeip.gif'
 const Bonus = () => {
     return (
         <section className=" py-20">
-            <div className="container">
+            <div className="container w-full md:w-1/3">
                 <div>
                     <Image
                         src={git}
