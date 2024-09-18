@@ -49,9 +49,6 @@ const CardInfo = () => {
     return (
         <section className="bg-color-ar pt-24 md:pt-44 pb-32 ">
             <div className="text-center px-2 my-auto text-white card mb-10">
-                <p className="text-sm text-muted-foreground">
-                    DETOX ESTÉTICO INTEGRATIVO PERSONALIZADO
-                </p>
                 <p className="text-4xl font-bold">
                     O Curso D.E.I.P é o caminho certo para:
                 </p>
