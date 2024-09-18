@@ -30,7 +30,7 @@ const Headers = () => {
             <div className="container">
                 <div className="space-y-5 text-center md:text-start w-full md:w-1/2 px-5 md:px-10 titleHeader mt-32 md:mt-0 ">
                     <h1 className="text-4xl font-extrabold text-white">
-                        Transforme Seus Resultados com o Detox Estético Integrativo Personalizado
+                        Transforme Seus Resultados com o D.E.I.P Detox Estético Integrativo Personalizado
                     </h1>
                     <h2 className="text-lg text-white mb-5">
                         Domine Todas as Estratégias do Detox Estético Corporal e Entregue Resultados Impactantes Tendo Autonomia de Criar seus Próprios Protocolos
@@ -38,9 +38,9 @@ const Headers = () => {
                     </h2>
                     <div>
                         <Link href={"https://pay.kiwify.com.br/bngE4k4"}>
-                            <Button variant={'ghost'} className="btn-dark-ar rounded-full py-7">
+                            <Button variant={'ghost'} className="w-full bg-white rounded-full py-7">
                                 <span className="text-md font-bold md:text-lg ">
-                                    Quero Me Especializar em Detox Corporal
+                                    EU QUERO! 
                                 </span>
                             </Button>
                         </Link>

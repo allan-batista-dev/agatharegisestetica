@@ -11,9 +11,9 @@ const ContatoSuporte = () => {
                     </h6>
                 </div>
 
-                <div>
+                <div >
                     <Link href={"https://wa.me/message/WENXNRJSXDOSL1"}>
-                        <Button className="w-full bg-green-600 rounded-full text-lg font-semibold">
+                        <Button className="w-full md:w-1/2 bg-green-600 rounded-full text-lg font-semibold">
                             Suporte WhatsApp
                         </Button>
                     </Link>

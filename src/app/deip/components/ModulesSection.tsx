@@ -21,11 +21,11 @@ const ModulesSection = () => {
     return (
         <section className="bg-default pt-20 pb-32">
             <div className="mb-12">
-                <h4 className=" text-5xl text-green-dark font-bold text-center">
+                <h4 className=" text-3xl text-green-dark font-bold text-center">
                     Conheça Nosso Curso
                 </h4>
             </div>
-            <div className="space-y-8 md:space-y-0 pb-20 container grid grid-cols-1 md:grid-cols-4 gap-6">
+            {/* <div className="space-y-8 md:space-y-0 pb-20 container grid grid-cols-1 md:grid-cols-4 gap-6">
                 <div>
                     <Image
                         src={img1}
@@ -89,18 +89,18 @@ const ModulesSection = () => {
                         layout="responsive"
                     />
                 </div>
-            </div>
+            </div> */}
             <div className="grid grid-cols-1 md:grid-cols-2 mx-10 lg:mx-32 items-center">
                 <div className="space-y-5 px-0 lg:px-20 mb-24 md:mb-5 lg:mb-0">
-                    <h5 className="text-6xl text-green-dark font-bold">
-                        8 módulos de aulas
+                    <h5 className="text-4xl text-green-dark font-bold">
+                        + de 40 aulas 
                     </h5>
                     <p className="text-lg text-green-dark">
-                        O caminho para o reconhecimento na estética através do Detox Estético Integrativo Personalizado
+                        O conteúdo completo que irá te capacitar para aplicar protocolos seguros e  eficazes com resultados douradouros 
                     </p>
                     <div className="w-full">
                         <Link href={"https://pay.kiwify.com.br/bngE4k4"}>
-                            <Button className="w-full md:w-1/3 text-lg md:text-2xl py-8 rounded-full font-bold hover:text-green-900 hover:bg-slate-100  btn-dark-ar">
+                            <Button className="w-full text-lg md:text-2xl py-8 rounded-full font-bold hover:text-green-900 hover:bg-slate-100  btn-dark-ar">
                                 Garanta Sua Vaga Agora
                             </Button>
                         </Link>
@@ -111,82 +111,82 @@ const ModulesSection = () => {
                         <AccordionItem value="item-1">
                             <AccordionTrigger>Introdução ao Curso</AccordionTrigger>
                             <AccordionContent>
-                                Aula 1 - Boas Vindas
+                            AULA 1 - Boas Vindas
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 2 - Minha Jornada
+                            AULA 2 - Minha Jornada
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 3 - O Conceito Revolucionário do Detox Estético Personalizado
+                            AULA 3 - O Conceito Revolucionário do Detox Estético Personalizado
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 4 - Diagnóstico Corpotal: Como Identificar as Necessidades Individuais
+                            AULA 4 - Diagnóstico Corpotal: Como Identificar as Necessidades Individuais
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-2">
                             <AccordionTrigger className="text-justify font-bold">Módulo 1 - Desvendando o Segredo do Corpo</AccordionTrigger>
                             <AccordionContent>
-                                Aula 1 - Principais sistemas envolvidos no detox corporal.
+                            AULA 1 - Principais sistemas envolvidos no detox corporal.
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 2 - Entendendo as toxinas: O primeiro passo para um detox eficaz.
+                            AULA 2 - Entendendo as toxinas: O primeiro passo para um detox eficaz.
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 3 - Detox ou Intox? Como evitar erro na sessão estética.
+                            AULA 3 - Detox ou Intox? Como evitar erro na sessão estética.
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 4 - Fazemos detox enquanto dormimos.
+                            AULA 4 - Fazemos detox enquanto dormimos.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-3">
                             <AccordionTrigger>Módulo 2 - Cuidados Pré e Pós Detox</AccordionTrigger>
                             <AccordionContent>
-                                Aula 1 - Nutracêuticos : Aliados para Saúde e Eficaz para estética
+                            AULA 1 - Nutracêuticos : Aliados para Saúde e Eficaz para estética
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 2 - Frequências Quânticos
+                            AULA 2 - Frequências Quânticos
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 3 - Magnésio:  O  Mineral Essencial para a Saúde e Longevidade
+                            AULA 3 - Magnésio:  O  Mineral Essencial para a Saúde e Longevidade
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 4 - Chás Detox
+                            AULA 4 - Chás Detox
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-4">
                             <AccordionTrigger>Módulo 3 - Guia Completo do Protocolo Detox: Etapas e Técnicas</AccordionTrigger>
                             <AccordionContent>
-                                Aula 1 - Conhecendo os Aliados: Produtos
+                            AULA 1 - Conhecendo os Aliados: Produtos
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 2 - Preparação da Pele: Higienização
+                            AULA 2 - Preparação da Pele: Higienização
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 3 - Preparação da Pele: Esfoliação
+                            AULA 3 - Preparação da Pele: Esfoliação
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 4 - Preparação da Pele: Hiperemia
+                            AULA 4 - Preparação da Pele: Hiperemia
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 5 - Preparação da Pele: Produtos Complementares
+                            AULA 5 - Preparação da Pele: Produtos Complementares
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 6 - Preparação da Pele: Argila
+                            AULA 6 - Preparação da Pele: Argila
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-5">
                             <AccordionTrigger>Módulo 4 - Eletroterapia</AccordionTrigger>
                             <AccordionContent>
-                                Aula 1 - Manta Térmica
+                            AULA 1 - Manta Térmica
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 2 - Ultrassom
+                            AULA 2 - Ultrassom
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 3 - Endermologia
+                            AULA 3 - Endermologia
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 4 - Microcorrentes
+                            AULA 4 - Microcorrentes
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-6">
@@ -195,22 +195,22 @@ const ModulesSection = () => {
                                 Introdução ao Módulo
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 1 - Drenagem Linfática.
+                            AULA 1 - Drenagem Linfática.
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 2 - Massagem Modeladora.
+                            AULA 2 - Massagem Modeladora.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-7">
                             <AccordionTrigger>Módulo 6 -  Procedimentos Avançados para Resultados Extraordinários</AccordionTrigger>
                             <AccordionContent>
-                                Aula 1 - Protocolo Detox para Retenção de Liquido
+                            AULA 1 - Protocolo Detox para Retenção de Liquido
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 2 - Protocolo Detox para Gordura Localizada
+                            AULA 2 - Protocolo Detox para Gordura Localizada
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 3 - Protocolo Detox para Definição Corporal
+                            AULA 3 - Protocolo Detox para Definição Corporal
                             </AccordionContent>
                             <AccordionContent>
                                 AULA 4: Protocolo Detox para Celulite
@@ -218,38 +218,38 @@ const ModulesSection = () => {
                         </AccordionItem>
                         <AccordionItem value="item-8">
                             <AccordionTrigger>Módulo 7 - Protocolos Detox:
-                                Aulas práticas </AccordionTrigger>
+                            AULA PRÁTICAS </AccordionTrigger>
                             <AccordionContent>
-                                Aula 1 - Protocolo Detox para Gordura Localizada
+                            AULA 1 - Protocolo Detox para Gordura Localizada
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 2 - Protocolo Detox para:
+                            AULA 2 - Protocolo Detox para:
                                 Retenção de Liquidos
 
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 3 - Protocolo Detox para Celulite
+                            AULA 3 - Protocolo Detox para Celulite
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 4 - Protocolo Detox para Definição Corporal
+                            AULA 4 - Protocolo Detox para Definição Corporal
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 5 - Protocolo Detox para Definição Corpotal
+                            AULA 5 - Protocolo Detox para Definição Corpotal
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-9">
-                            <AccordionTrigger>Módulo 8 - Conteúdo Premium: Aulas Bônus</AccordionTrigger>
+                            <AccordionTrigger>Módulo 8 - Conteúdo Premium: AULAS BÔNUS</AccordionTrigger>
                             <AccordionContent>
-                                Aula 1 - Conhecendo o Público Alvo
+                            AULA 1 - Conhecendo o Público Alvo
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 2 - Técnicas de Vendas do D.E.I.P
+                            AULA 2 - Técnicas de Vendas do D.E.I.P
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 3 - Como Captar e Fidelizar Clientes
+                            AULA 3 - Como Captar e Fidelizar Clientes
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 4 - Como Proporcionar a Melhor Experiência ao Cliente
+                            AULA 4 - Como Proporcionar a Melhor Experiência ao Cliente
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>
