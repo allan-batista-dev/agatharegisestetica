@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Check } from "lucide-react";
+import Link from "next/link";
 
 const ValorCardSection = () => {
     return (
@@ -46,9 +47,13 @@ const ValorCardSection = () => {
                 <p>
                     Ou R$597,90 à vista
                 </p>
-                <Button className="w-full btn-dark-ar text-lg font-bold">
-                    Quero fazer parte disso
-                </Button>
+                <div className="text-center mt-16 px-5">
+                    <Link href={"https://pay.kiwify.com.br/bngE4k4"}>
+                        <Button className="w-full md:w-1/3 text-lg md:text-2xl py-8 rounded-full font-bold hover:text-green-900 hover:bg-slate-100  btn-dark-ar">
+                            Garanta Sua Vaga Agora
+                        </Button>
+                    </Link>
+                </div>
                 <p>
                     O investimento mensal é menor do que o valor de uma única sessão de detox corporal, garantindo retorno financeiro rápido e seguro. Invista em seu crescimento e transforme sua carreira agora!
                 </p>

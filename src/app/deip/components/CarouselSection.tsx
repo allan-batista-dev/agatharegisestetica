@@ -96,7 +96,7 @@ const CarouselSection = () => {
                 </Card>
             </div>
             <div className="text-center mt-16 px-5">
-                <Link href={"#"}>
+                <Link href={"https://pay.kiwify.com.br/bngE4k4"}>
                     <Button className="w-full md:w-1/3 text-2xl py-8 rounded-full font-bold hover:text-green-900 hover:bg-slate-100  btn-dark-ar">
                         Garanta Sua Vaga Agora
                     </Button>

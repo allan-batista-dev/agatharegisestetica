@@ -15,11 +15,12 @@ import img6 from "../../../../public/img/modulos/31.png"
 import img7 from "../../../../public/img/modulos/34.png"
 import img8 from "../../../../public/img/modulos/39.png"
 import img9 from "../../../../public/img/modulos/45.png"
+import Link from "next/link";
 
 const ModulesSection = () => {
     return (
         <section className="bg-default pt-20 pb-32">
-            <div className="mb-12"> 
+            <div className="mb-12">
                 <h4 className=" text-5xl text-green-dark font-bold text-center">
                     Conheça Nosso Curso
                 </h4>
@@ -87,7 +88,7 @@ const ModulesSection = () => {
                         alt="mod1"
                         layout="responsive"
                     />
-                    </div>
+                </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 mx-10 lg:mx-32 items-center">
                 <div className="space-y-5 px-0 lg:px-20 mb-24 md:mb-5 lg:mb-0">
@@ -97,10 +98,12 @@ const ModulesSection = () => {
                     <p className="text-lg text-green-dark">
                         O caminho para o reconhecimento na estética através do Detox Estético Integrativo Personalizado
                     </p>
-                    <div>
-                        <Button variant={'ghost'} className="btn-models w-full py-8 text-lg font-bold">
-                            EU QUERO GARANTIR MINHA VAGA
-                        </Button>
+                    <div className="w-full">
+                        <Link href={"https://pay.kiwify.com.br/bngE4k4"}>
+                            <Button className="w-full md:w-1/3 text-lg md:text-2xl py-8 rounded-full font-bold hover:text-green-900 hover:bg-slate-100  btn-dark-ar">
+                                Garanta Sua Vaga Agora
+                            </Button>
+                        </Link>
                     </div>
                 </div>
                 <div>
