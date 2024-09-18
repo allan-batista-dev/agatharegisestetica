@@ -45,7 +45,7 @@ const Headers = () => {
                             </Button>
                         </Link>
                     </div>
-                <div className="w-full md:w-1/2 mt-5 md:mt-0 flex bg-headers justify-center md:hidden">
+                <div className="w-full h-full md:w-1/2 mt-5 md:mt-0 flex bg-headers justify-center md:hidden">
                     <Image
                         src={agatha}
                         alt="Agatha"
