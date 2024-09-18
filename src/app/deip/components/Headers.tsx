@@ -45,7 +45,6 @@ const Headers = () => {
                             </Button>
                         </Link>
                     </div>
-                </div>
                 <div className="w-full md:w-1/2 mt-5 md:mt-0 flex bg-headers justify-center md:hidden">
                     <Image
                         src={agatha}
@@ -53,6 +52,7 @@ const Headers = () => {
                         layout="responsive"
                         className="h-screen object-contain"
                     />
+                </div>
                 </div>
             </div>
         </section>
