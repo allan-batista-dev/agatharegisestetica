@@ -45,16 +45,16 @@ const QuemSou = () => {
                         </p>
 
                         <p>
-                            Hoje meu próposito é pegar nas mãos de profissinais que desejam mudar sua realidade através da estética e ensinar tudo o que sei e aplico no meu dia a dia clínico, por isso te espero na nossa imersão D.E.I.P
+                            Hoje meu próposito é pegar nas mãos de profissinais que desejam mudar sua realidade através da estética e ensinar tudo o que sei e aplico no meu dia a dia clínico, por isso te espero nO nosso Curso D.E.I.P
                         </p>
                     </div>
                 </div>
             </div>
             <div className="flex justify-center container">
                 <div className="pt-20 w-full md:w-1/3 ">
-                    <Link href={"https://chat.whatsapp.com/LHqd2SYYh1rHCeYIugW45T"} target="_blank">
-                        <Button className="w-full py-8 bg-green-900 text-3xl  rounded-full font-bold">
-                            QUERO PARTICIPAR
+                    <Link href={"https://pay.kiwify.com.br/bngE4k4"} target="_blank">
+                        <Button className="w-full py-8 bg-green-900 text-lg md:text-3xl  rounded-full font-bold">
+                            QUERO ME INSCREVER AGORA
                         </Button>
                     </Link>
                 </div>

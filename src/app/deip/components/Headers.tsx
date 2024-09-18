@@ -26,31 +26,34 @@ const Headers = () => {
     }, []);
 
     return (
-        <section className="bg-headers flex flex-col md:flex-row items-center justify-between h-screen">
-            <div className="space-y-5 w-full md:w-1/2 px-5 md:px-10 titleHeader mt-32 md:mt-0">
-                <h1 className="text-4xl font-extrabold text-white">
-                    Transforme Seu Atendimento com o Detox Estético Integrativo Personalizado
-                </h1>
-                <h2 className="text-lg text-white mb-5">
-                    Domine o Método D.E.I.P e Ofereça Resultados Exclusivos para Seus Clientes
-                </h2>
-                <div>
-                    <Link href={"https://pay.kiwify.com.br/bngE4k4"}>
-                        <Button variant={'ghost'} className="btn-dark-ar rounded-full py-7">
-                            <span className="text-md font-bold text-lg ">
-                                Quero Me Especializar em Detox Corporal
-                            </span>
-                        </Button>
-                    </Link>
+        <section className="flex flex-col md:flex-row bg-headers items-center justify-between h-screen ">
+            <div className="container">
+                <div className="space-y-5 text-center md:text-start w-full md:w-1/2 px-5 md:px-10 titleHeader mt-32 md:mt-0 ">
+                    <h1 className="text-4xl font-extrabold text-white">
+                        Transforme Seus Resultados com o Detox Estético Integrativo Personalizado
+                    </h1>
+                    <h2 className="text-lg text-white mb-5">
+                        Domine Todas as Estratégias do Detox Estético Corporal e Entregue Resultados Impactantes Tendo Autonomia de Criar seus Próprios Protocolos
+
+                    </h2>
+                    <div>
+                        <Link href={"https://pay.kiwify.com.br/bngE4k4"}>
+                            <Button variant={'ghost'} className="btn-dark-ar rounded-full py-7">
+                                <span className="text-md font-bold md:text-lg ">
+                                    Quero Me Especializar em Detox Corporal
+                                </span>
+                            </Button>
+                        </Link>
+                    </div>
                 </div>
-            </div>
-            <div className="w-full md:w-1/2 mt-5 md:mt-0 flex imageHeader justify-center md:hidden">
-                <Image
-                    src={agatha}
-                    alt="Agatha"
-                    layout="responsive"
-                    className="h-screen object-contain"
-                />
+                <div className="w-full md:w-1/2 mt-5 md:mt-0 flex bg-headers justify-center md:hidden">
+                    <Image
+                        src={agatha}
+                        alt="Agatha"
+                        layout="responsive"
+                        className="h-screen object-contain"
+                    />
+                </div>
             </div>
         </section>
     );

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import img from '../../../../public/img/player.png'
+import img from '../../../../public/img/player2.png'
 import {
     Dialog,
     DialogContent,

@@ -94,6 +94,19 @@ html {
 ;
 }
 
+.border-dark-bold {
+  border: 3px solid #c1bbbb;
+  border-radius: 28px;
+  box-shadow:
+  0.4px 2.1px 50.5px -23px rgba(0, 0, 0, 0.043),
+  0.9px 5px 96.5px -23px rgba(0, 0, 0, 0.062),
+  1.6px 9.4px 139.1px -23px rgba(0, 0, 0, 0.077),
+  2.9px 16.8px 183.2px -23px rgba(0, 0, 0, 0.09),
+  5.4px 31.3px 249.7px -23px rgba(0, 0, 0, 0.104),
+  13px 75px 500px -23px rgba(0, 0, 0, 0.12)
+;
+}
+
 .btn-dark-ar {
   color: whitesmoke;
   background-color: #3A5A40;

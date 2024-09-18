@@ -6,11 +6,89 @@ import {
     AccordionTrigger,
 } from "@/components/ui/accordion"
 import Image from "next/image";
-import imgMockup from '../../../../public/img/mockup.png'
+import img1 from "../../../../public/img/modulos/1.png"
+import img2 from "../../../../public/img/modulos/6.png"
+import img3 from "../../../../public/img/modulos/11.png"
+import img4 from "../../../../public/img/modulos/19.png"
+import img5 from "../../../../public/img/modulos/26.png"
+import img6 from "../../../../public/img/modulos/31.png"
+import img7 from "../../../../public/img/modulos/34.png"
+import img8 from "../../../../public/img/modulos/39.png"
+import img9 from "../../../../public/img/modulos/45.png"
 
 const ModulesSection = () => {
     return (
-        <section className="bg-default pt-32 pb-32">
+        <section className="bg-default pt-20 pb-32">
+            <div className="mb-12"> 
+                <h4 className=" text-5xl text-green-dark font-bold text-center">
+                    Conheça Nosso Curso
+                </h4>
+            </div>
+            <div className="space-y-8 md:space-y-0 pb-20 container grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div>
+                    <Image
+                        src={img1}
+                        alt="mod1"
+                        layout="responsive"
+                    />
+                </div>
+                <div>
+                    <Image
+                        src={img2}
+                        alt="mod1"
+                        layout="responsive"
+                    />
+                </div>
+                <div>
+                    <Image
+                        src={img3}
+                        alt="mod1"
+                        layout="responsive"
+                    />
+                </div>
+                <div>
+                    <Image
+                        src={img4}
+                        alt="mod1"
+                        layout="responsive"
+                    />
+                </div>
+                <div>
+                    <Image
+                        src={img5}
+                        alt="mod1"
+                        layout="responsive"
+                    />
+                </div>
+                <div>
+                    <Image
+                        src={img6}
+                        alt="mod1"
+                        layout="responsive"
+                    />
+                </div>
+                <div>
+                    <Image
+                        src={img7}
+                        alt="mod1"
+                        layout="responsive"
+                    />
+                </div>
+                <div>
+                    <Image
+                        src={img8}
+                        alt="mod1"
+                        layout="responsive"
+                    />
+                </div>
+                <div>
+                    <Image
+                        src={img9}
+                        alt="mod1"
+                        layout="responsive"
+                    />
+                    </div>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 mx-10 lg:mx-32 items-center">
                 <div className="space-y-5 px-0 lg:px-20 mb-24 md:mb-5 lg:mb-0">
                     <h5 className="text-6xl text-green-dark font-bold">
@@ -26,189 +104,149 @@ const ModulesSection = () => {
                     </div>
                 </div>
                 <div>
-                    <Accordion type="single" collapsible className="w-full">
+                    <Accordion type="single" collapsible className="w-full ">
                         <AccordionItem value="item-1">
-                            <AccordionTrigger>INTRODUÇÃO AO CURSO</AccordionTrigger>
+                            <AccordionTrigger>Introdução ao Curso</AccordionTrigger>
                             <AccordionContent>
-                                - Aula 1: Boas vindas e apresentação.
+                                Aula 1 - Boas Vindas
                             </AccordionContent>
                             <AccordionContent>
-                                - Aula 2: O conceito revolucionário do detox estético personalizado.
+                                Aula 2 - Minha Jornada
                             </AccordionContent>
                             <AccordionContent>
-                                - Aula 3: Diagnóstico corporal: Como identificar as necessidades individuais.
+                                Aula 3 - O Conceito Revolucionário do Detox Estético Personalizado
+                            </AccordionContent>
+                            <AccordionContent>
+                                Aula 4 - Diagnóstico Corpotal: Como Identificar as Necessidades Individuais
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-2">
-                            <AccordionTrigger className="text-justify font-bold">MÓDULO 1: DESVENDANDO OS SEGREDOS DO CORPO</AccordionTrigger>
-                            <AccordionContent> 
-                                - Aula 1: Principais sistemas envolvidos no detox corporal.
+                            <AccordionTrigger className="text-justify font-bold">Módulo 1 - Desvendando o Segredo do Corpo</AccordionTrigger>
+                            <AccordionContent>
+                                Aula 1 - Principais sistemas envolvidos no detox corporal.
                             </AccordionContent>
                             <AccordionContent>
-                                - Aula 2: Entendendo as toxinas: O primeiro passo para um detox eficaz.
+                                Aula 2 - Entendendo as toxinas: O primeiro passo para um detox eficaz.
                             </AccordionContent>
                             <AccordionContent>
-                                - Aula 3: Detox ou Intox? Como evitar erro na sessão estética.
+                                Aula 3 - Detox ou Intox? Como evitar erro na sessão estética.
                             </AccordionContent>
                             <AccordionContent>
-                                - Aula 4: Fazemos detox enquanto dormimos.
+                                Aula 4 - Fazemos detox enquanto dormimos.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-3">
-                            <AccordionTrigger>MÓDULO 2: CUIDADOS PRÉ E PÓS DETOX</AccordionTrigger>
+                            <AccordionTrigger>Módulo 2 - Cuidados Pré e Pós Detox</AccordionTrigger>
                             <AccordionContent>
-                                - Aula 1: Nutracêuticos: Aliados para a saúde e eficazes para a estética.
+                                Aula 1 - Nutracêuticos : Aliados para Saúde e Eficaz para estética
                             </AccordionContent>
                             <AccordionContent>
-                                - Aula 2: Frequências quânticos.
+                                Aula 2 - Frequências Quânticos
                             </AccordionContent>
                             <AccordionContent>
-                                - Aula 3: Chás detox.
+                                Aula 3 - Magnésio:  O  Mineral Essencial para a Saúde e Longevidade
+                            </AccordionContent>
+                            <AccordionContent>
+                                Aula 4 - Chás Detox
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-4">
-                            <AccordionTrigger>MÓDULO 3: GUIA COMPLETO DO PROTOCOLO DETOX: ETAPAS E TÉCNICAS</AccordionTrigger>
+                            <AccordionTrigger>Módulo 3 - Guia Completo do Protocolo Detox: Etapas e Técnicas</AccordionTrigger>
                             <AccordionContent>
-                                AULA 1: CONHECENDO OS ALIADOS: produtos <br />
-                                - Ingredientes essenciais para o detox. <br />
-                                - Como escolher produtos baseamos em tipos e necessidades de pele. <br />
-                                - Passos indispensáveis (higienização, esfoliação e hiperemia).
+                                Aula 1 - Conhecendo os Aliados: Produtos
                             </AccordionContent>
                             <AccordionContent>
-                                AULA 2: PREPARAÇÃO DA PELE
-                                <br />
-                                - Higienização. <br />
-                                - Tipos de produtos e marcas no mercado. <br />
-                                - Técnica de limpeza profunda. <br />
-                                - Aula prática.
+                                Aula 2 - Preparação da Pele: Higienização
                             </AccordionContent>
                             <AccordionContent>
-                                AULA 3: PREPARAÇÃO DA PELE
-                                <br />
-                                - Esfoliação. <br />
-                                - Tipos de produtos e marcas no mercado. <br />
-                                - Métodos eficazes de esfoliação corporal: física, química, enzimática. <br />
-                                - Aula prática.
+                                Aula 3 - Preparação da Pele: Esfoliação
                             </AccordionContent>
                             <AccordionContent>
-                                AULA 4: PREPARAÇÃO DA PELE
-                                <br />
-                                - Hiperemia. <br />
-                                - Tipos de produtos e marcas no mercado. <br />
-                                - Função na pele. <br />
-                                - Contraindicações.
+                                Aula 4 - Preparação da Pele: Hiperemia
                             </AccordionContent>
                             <AccordionContent>
-                                AULA 5: PREPARAÇÃO DA PELE
-                                <br />
-                                - Argila. <br />
-                                - Tipos de argilas. <br />
-                                - Benefícios e tipos no mercado. <br />
-                                - Como preparar a argila (magnésio, chá, óleo essencial, fluidos).
+                                Aula 5 - Preparação da Pele: Produtos Complementares
+                            </AccordionContent>
+                            <AccordionContent>
+                                Aula 6 - Preparação da Pele: Argila
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-5">
-                            <AccordionTrigger>MÓDULO 4: ELETROTERAPIA</AccordionTrigger>
+                            <AccordionTrigger>Módulo 4 - Eletroterapia</AccordionTrigger>
                             <AccordionContent>
-                                Aula 1: ULTRASSOM
+                                Aula 1 - Manta Térmica
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 2: ENDERMOLOGIA
+                                Aula 2 - Ultrassom
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 3: MANTA TÉRMICA
+                                Aula 3 - Endermologia
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 4: MICROCORRENTES
+                                Aula 4 - Microcorrentes
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-6">
-                            <AccordionTrigger>MÓDULO 5: MASSAGEM MANUAL</AccordionTrigger>
+                            <AccordionTrigger>Módulo 5 - Massagem Manual</AccordionTrigger>
                             <AccordionContent>
-                                Aula 1: Drenagem linfática.
+                                Introdução ao Módulo
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 2: Massagem modeladora.
+                                Aula 1 - Drenagem Linfática.
+                            </AccordionContent>
+                            <AccordionContent>
+                                Aula 2 - Massagem Modeladora.
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-7">
-                            <AccordionTrigger>MÓDULO 6: PROCEDIMENTOS AVANÇADOS PARA RESULTADOS EXTRAORDINÁRIOS</AccordionTrigger>
+                            <AccordionTrigger>Módulo 6 -  Procedimentos Avançados para Resultados Extraordinários</AccordionTrigger>
                             <AccordionContent>
-                                Aula 1: Estudo de caso gordura.
+                                Aula 1 - Protocolo Detox para Retenção de Liquido
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 2: Estudo de caso celulite.
+                                Aula 2 - Protocolo Detox para Gordura Localizada
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 3: Estudo de caso flacidez.
+                                Aula 3 - Protocolo Detox para Definição Corporal
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 2: Estudo de caso edema.
+                                AULA 4: Protocolo Detox para Celulite
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-8">
-                            <AccordionTrigger>MÓDULO 7: PROTOCOLOS DETOX
-                                (Aula prática )</AccordionTrigger>
+                            <AccordionTrigger>Módulo 7 - Protocolos Detox:
+                                Aulas práticas </AccordionTrigger>
                             <AccordionContent>
-                                Aula 1: Protocolo (drenante). <br />
-                                - Higienização. <br />
-                                - Esfoliação. (local) <br />
-                                - Hiperemia. <br />
-                                - Argila. <br />
-                                - Drenagem. <br />
-                                - Manta.
+                                Aula 1 - Protocolo Detox para Gordura Localizada
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 2: Protocolo (celulite). <br />
-                                - Higienização. <br />
-                                - Esfoliação. <br />
-                                - Hiperemia local. <br />
-                                - Mens. <br />
-                                - Magnésio. <br />
-                                - Argila. <br />
-                                - Manta.
+                                Aula 2 - Protocolo Detox para:
+                                Retenção de Liquidos
+
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 3: Protocolo (definição corporal). <br />
-                                - Higienização. <br />
-                                - Esfoliação. <br />
-                                - Hiperemiente. <br />
-                                - Endermologia. <br />
-                                - Argila. <br />
-                                - Manta térmica
+                                Aula 3 - Protocolo Detox para Celulite
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 4: Protocolo (gordura localizada). <br />
-                                - Higienização. <br />
-                                - Esfoliação. <br />
-                                - Hiperemia. <br />
-                                - Argila. <br />
-                                - Ultrassom. <br />
-                                - Manta térmica.
+                                Aula 4 - Protocolo Detox para Definição Corporal
+                            </AccordionContent>
+                            <AccordionContent>
+                                Aula 5 - Protocolo Detox para Definição Corpotal
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-9">
-                            <AccordionTrigger>MÓDULO 8: BÔNUS</AccordionTrigger>
+                            <AccordionTrigger>Módulo 8 - Conteúdo Premium: Aulas Bônus</AccordionTrigger>
                             <AccordionContent>
-                                Aula 1: Vendas. <br />
-                                - 10 estratégias aplicáveis.
+                                Aula 1 - Conhecendo o Público Alvo
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 2: Experiência do cliente (5 sentidos). <br />
-                                - Olfato. <br />
-                                - Paladar. <br />
-                                - Visão. <br />
-                                - Audição. <br />
-                                - Toque.
+                                Aula 2 - Técnicas de Vendas do D.E.I.P
                             </AccordionContent>
                             <AccordionContent>
-                                Aula 3: Planejamento e tecnologia para quem deseja empreender na estética. <br />
-                                - Esteticflow. <br />
-                                - Agenda. <br />
-                                - Lembrares. <br />
-                                - Fichas de anamnese. <br />
-                                - Gráficos. <br />
-                                - Dados do cliente
+                                Aula 3 - Como Captar e Fidelizar Clientes
+                            </AccordionContent>
+                            <AccordionContent>
+                                Aula 4 - Como Proporcionar a Melhor Experiência ao Cliente
                             </AccordionContent>
                         </AccordionItem>
                     </Accordion>

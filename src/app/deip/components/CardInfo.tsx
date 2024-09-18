@@ -47,13 +47,13 @@ const CardInfo = () => {
     }, [])
 
     return (
-        <section className="bg-green-light pt-24 md:pt-44 pb-32 ">
+        <section className="bg-color-ar pt-24 md:pt-44 pb-32 ">
             <div className="text-center px-2 my-auto text-white card mb-10">
                 <p className="text-sm text-muted-foreground">
                     DETOX ESTÉTICO INTEGRATIVO PERSONALIZADO
                 </p>
                 <p className="text-4xl font-bold">
-                    O Método D.E.I.P é o caminho certo para:
+                    O Curso D.E.I.P é o caminho certo para:
                 </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-6 mx-5 lg:mx-32 items">
@@ -62,7 +62,7 @@ const CardInfo = () => {
                         <Wand className="h-12 w-12 me-4" /> <span className="font-4xl font-semibold">Aprimorar suas Técnicas</span>
                     </p>
                     <p className="text-lg">
-                        Domine novas abordagens de detox estético, utilizando métodos avançados como argila e manta térmica, elevando a qualidade dos seus atendimentos.
+                        Domine novas abordagens de detox estético e tenha autônomia de criar seus próprios protocolos associando cosmetologia, eletroterapia e técnicas manuais.
                     </p>
                 </Card>
                 <Card className=" bg-default px-5 py-10 card border-green-bold">
@@ -70,15 +70,16 @@ const CardInfo = () => {
                         <Sparkles className="h-12 w-12 me-4" /> <span className="font-4xl font-semibold">Se Diferenciar no Mercado</span>
                     </p>
                     <p className="text-lg">
-                        Ofereça um serviço exclusivo e diferenciado que destaca seu trabalho em um mercado competitivo, atraindo uma clientela mais seletiva e fiel.
+                        Ofereça protocolos exclusivos pensados na necessidade e individualidade de cada paciente. A personalização é o caminho para  resultados de sucesso.
+
                     </p>
                 </Card>
                 <Card className=" bg-default px-5 py-10 card-reverse border-green-bold">
                     <p className="mb-4 flex items-center">
-                        <DollarSign className="h-12 w-12 me-4" /> <span className="font-4xl font-semibold">Aumentar sua Rentabilidade</span>
+                        <DollarSign className="h-12 w-12 me-4" /> <span className="font-4xl font-semibold">Aumentar seu Faturamento</span>
                     </p>
                     <p className="text-lg">
-                        Aprenda a otimizar seu tempo e recursos com técnicas que maximizam os resultados, permitindo que você aumente seu ticket médio e melhore seus ganhos.
+                        Aprenda oferecer seus serviços corretamente,  otimizar e valorizar sua hora de atendimento, aumentando assim seu faturamento com o protocolo detox no verão 2024
                     </p>
                 </Card>
                 <Card className=" bg-default px-5 py-10 card border-green-bold">
@@ -86,23 +87,26 @@ const CardInfo = () => {
                         <BookOpen className="h-12 w-12 me-4" /> <span className="font-4xl font-semibold">Expansão de Conhecimentos</span>
                     </p>
                     <p className="text-lg">
-                        Enriquecer seu repertório profissional com conhecimentos integrativos que combinam o melhor das práticas tradicionais e inovadoras em estética.
+                        Enriquecer seu conhecimento profissional com conteúdos integrativos que visam inovação e transformação completa, tratando o paciente de dentro para fora. 
+
                     </p>
                 </Card>
                 <Card className=" bg-default px-5 py-10 card-y border-green-bold">
                     <p className="mb-4 flex items-center">
-                        <UserCheck className="h-12 w-12 me-4" /> <span className="font-4xl font-semibold">Capacitação para Atendimentos Personalizados</span>
+                        <UserCheck className="h-12 w-12 me-4" /> <span className="font-4xl font-semibold">Capacitação entregar Resultados na hora 
+
+                        </span>
                     </p>
                     <p className="text-lg">
-                        Adquira habilidades para criar planos de tratamento personalizados, alinhando-se às necessidades específicas de cada cliente e aumentando a satisfação.
+                        Aprenda a usar o que tem de disponível na clínica ao seu favor, não se limite em achar que precisa de muitos recursos para entregar resultado. 
                     </p>
                 </Card>
                 <Card className=" bg-default px-5 py-10 card-reverse border-green-bold">
                     <p className="mb-4 flex items-center">
-                        <ShoppingBag className="h-12 w-12 me-4" /> <span className="font-4xl font-semibold">Desenvolvimento de Competências de Venda</span>
+                        <ShoppingBag className="h-12 w-12 me-4" /> <span className="font-4xl font-semibold">Desenvolvimento de Competências para Empreender </span>
                     </p>
                     <p className="text-lg">
-                        Além das técnicas estéticas, o curso oferece insights valiosos sobre como vender e captar clientes, permitindo que você construa uma base sólida de clientes para seu negócio.
+                        Além das técnicas estéticas, o curso oferece insights valiosos sobre como vender e captar clientes, posicionamento profissional, experiência do cliente e muito mais 
                     </p>
                 </Card>
             </div>
