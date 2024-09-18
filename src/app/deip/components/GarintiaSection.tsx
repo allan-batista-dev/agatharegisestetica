@@ -26,10 +26,10 @@ const GarantiaSection = () => {
                     </p>
                 </div>
             </div>
-            <div className="text-center pt-20 w-full">
-                <Link href={"https://pay.kiwify.com.br/bngE4k4"}>
-                    <Button className="px-20 rounded-full text-md font-bold py-8 bg-white text-dark">
-                        QUERO GARANTIR MINHA VAGA
+            <div className="text-center mt-16 px-5">
+                <Link href={"#"}>
+                    <Button className="w-full md:w-1/3 text-2xl py-8 rounded-full font-bold hover:text-green-900 hover:bg-slate-100  btn-dark-ar">
+                        Garanta Sua Vaga Agora
                     </Button>
                 </Link>
             </div>
