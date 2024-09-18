@@ -28,7 +28,7 @@ const Headers = () => {
     return (
         <section className="flex flex-col md:flex-row bg-headers items-center justify-between h-screen ">
             <div className="container">
-                <div className="space-y-5 text-center md:text-start w-full md:w-1/2 px-5 md:px-10 titleHeader mt-32 md:mt-0 ">
+                <div className="space-y-5 text-center md:text-start w-full md:w-1/2 px-5 md:px-10 titleHeader mt-20 md:mt-0 ">
                     <h1 className="text-4xl font-extrabold text-white">
                         Transforme Seus Resultados com o D.E.I.P Detox Estético Integrativo Personalizado
                     </h1>
