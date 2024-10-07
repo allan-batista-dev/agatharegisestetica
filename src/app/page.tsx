@@ -5,7 +5,7 @@ import bgImage from "../../public/img/bg1.png";
 import agathaImage from "../../public/img/agatha.jpeg";
 import curso2024presen from "../../public/img/2024/cursoeletropresencial.jpeg"
 import cursoOn2024 from "../../public/img/2024/cursoeletro.jpeg"
-import goldDepil2024 from "../../public/img/gold10:2024.png"
+import goldDepil2024 from "../../public/img/gdepil1024.png"
 import agende2024 from "../../public/img/2024/agende.jpeg"
 import mentoria from "../../public/img/2024/mentoria.jpeg"
 import imgDeip from "../../public/img/deip2.png"
