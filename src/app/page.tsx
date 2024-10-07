@@ -8,6 +8,7 @@ import cursoOn2024 from "../../public/img/2024/cursoeletro.jpeg"
 import goldDepil2024 from "../../public/img/2024/golddepil.jpeg"
 import agende2024 from "../../public/img/2024/agende.jpeg"
 import mentoria from "../../public/img/2024/mentoria.jpeg"
+import imgDeip from "../../public/img/deip.png"
 
 export default function Home() {
   const dados = [
@@ -71,6 +72,15 @@ export default function Home() {
           </div>
           <div className="flex justify-center mb-6">
             <ul>
+              <li className="mb-4 px-6">
+                <Link href={"https://agatharegisestetica.com.br/deip"}>
+                  <Image
+                    src={imgDeip}
+                    alt={"Curso Deip"}
+                    className="rounded-md shadow-2xl shadow-gray-900"
+                  />
+                </Link>
+              </li>
               {dados.map((card, index) => (
                 <li key={index} className="mb-4 px-6">
                   {card.src && (
